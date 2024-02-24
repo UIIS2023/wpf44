@@ -1,0 +1,28 @@
+﻿<Window x:Class="AutoSkola.Forme.FrmKandidat"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoSkola.Forme"
+        mc:Ignorable="d"
+        Title="FrmKandidat" Height="549" Width="404">
+    <Grid Margin="0,0,21,0">
+        <Label Content="Ime: " HorizontalAlignment="Left" Margin="68,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="Prezime:" HorizontalAlignment="Left" Margin="68,76,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.273,0.527"/>
+        <Label Content="Jmbg:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,107,0,0"/>
+        <Label Content="Adresa:" HorizontalAlignment="Left" Margin="68,138,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.281,-0.49"/>
+        <Label Content="Grad:" HorizontalAlignment="Left" Margin="69,169,0,0" VerticalAlignment="Top"/>
+        <Label Content="Datum rodjenja:" HorizontalAlignment="Left" Margin="69,200,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtIme" HorizontalAlignment="Left" Height="23" Margin="175,49,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtPrezime" HorizontalAlignment="Left" Height="23" Margin="175,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtJMBG" HorizontalAlignment="Left" Height="23" Margin="175,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtAdresa" HorizontalAlignment="Left" Height="23" Margin="175,142,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txtGrad" HorizontalAlignment="Left" Height="23" Margin="175,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <DatePicker Name="datum1" HorizontalAlignment="Left" Margin="175,201,0,0" VerticalAlignment="Top" Width="136"/>
+        <Button Content="Sacuvaj" HorizontalAlignment="Left" Margin="48,334,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Otkaži" HorizontalAlignment="Left" Margin="273,334,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Label Content="Kontakt:" HorizontalAlignment="Left" Margin="68,241,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtKontakt" HorizontalAlignment="Left" Margin="175,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

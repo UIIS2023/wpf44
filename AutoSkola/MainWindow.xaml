@@ -1,0 +1,29 @@
+﻿<Window x:Class="AutoSkola.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoSkola"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-6.4,0">
+        <DataGrid Name="dataGridCentralni" HorizontalAlignment="Center"  Margin="66,55,66.4,57" VerticalAlignment="Center" 
+                  Height="207" IsReadOnly="True" AlternatingRowBackground="Aqua" CanUserAddRows="False" SelectionUnit="FullRow" SelectionMode="Single" Width="616"/>
+        <StackPanel HorizontalAlignment="Center" Height="30"  VerticalAlignment="Top" Width="614" Orientation="Horizontal">
+            <Button Name="btnkandidat" Content="Kandidat" HorizontalAlignment="Left" Width="90"  Margin="0,0,0,0.4" Click="btnObuka_Click" />
+            <Button Name="btnIspiti" Content="Ispiti" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="30" Width="75" Click="btnIspiti_Click" />
+            <Button Name="btnLekarskiPregled" Content="Lekarski Pregled" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="30" Width="105" Click="btnLekarskiPregled_Click" />
+            <Button Name="btnPrvaPomoc" Content="Prva Pomoć" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="30" Width="75" Click="btnPrvaPomoc_Click" />
+            <Button Name="btnInstruktor" Content="Instruktor" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="30" Width="75" Click="btnInstruktor_Click"/>
+            <Button Name="btnZaposleni" Content="Zaposleni" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="30" Width="75" Click="btnZaposleni_Click" />
+            <Button Name="btnPotvrda" Content="Potvrda" VerticalAlignment="Top" Height="30" Width="64" Click="btnPotvrda_Click"/>
+            <Button Name="btnObuka"  Content="Obuka" Width="55" Click="btnObuka_Click_1"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Height="30"  VerticalAlignment="Bottom" Width="auto" Orientation="Horizontal">
+            <Button Name="btnDodaj" Content="Dodaj" Width="120" Click="btnDodaj_Click" />
+            <Button Name="btnIzmeni" Content="Izmeni" Width="120" Click="btnIzmeni_Click" />
+            <Button Name="btnObrisi" Content="Obrisi" Width="120" Click="btnObrisi_Click" />
+
+        </StackPanel>
+    </Grid>
+</Window>

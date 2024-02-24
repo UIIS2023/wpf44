@@ -1,0 +1,20 @@
+﻿<Window x:Class="AutoSkola.Forme.FrmPrvaPomoc"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoSkola.Forme"
+        mc:Ignorable="d"
+        Title="FrmPrvaPomoc" Height="353" Width="300">
+    <Grid Margin="0,0,0,-6">
+        <Label Content="Kandidat" HorizontalAlignment="Left" Margin="35,58,0,0" VerticalAlignment="Top"/>
+        <Label Content="Odslušani časovi:" HorizontalAlignment="Left" Margin="35,105,0,0" VerticalAlignment="Top"/>
+        <Label Content="Položen ispit prve pomoći" HorizontalAlignment="Left" Margin="35,157,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="cbKandidat" HorizontalAlignment="Left" Margin="141,60,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Sačuvaj" HorizontalAlignment="Left" Margin="25,291,0,0" VerticalAlignment="Top" Width="83" Click="Button_Click"/>
+        <Button Content="Otkaži" HorizontalAlignment="Left" Margin="201,291,0,0" VerticalAlignment="Top" Width="71" Click="Button_Click_1"/>
+        <TextBox Name="odslusan" HorizontalAlignment="Left" Margin="152,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="polozen" HorizontalAlignment="Left" Margin="201,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="89" Height="22"/>
+
+    </Grid>
+</Window>
